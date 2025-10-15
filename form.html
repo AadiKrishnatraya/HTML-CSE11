@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+
+    <form action="./response.html" name="Biodata" target="_blank" method="get">
+        <fieldset>
+            <legend>Biodata</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br>
+            <label for="pass">Password:</label>
+            <input type="password" id="pass" name="pass" required><br>
+            <label for="dob">DOB:</label>
+            <input type="date" id="dob" name="dob" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="tel">Phone Number:</label>
+            <input type="tel" id="tel" name="tel" required><br><br>
+            <label for="add">Address:</label>
+            <textarea type="text" name="ad" id="add" rows="3" cols="30"></textarea><br><br>
+            
+            <label for="gender">Gender:</label>
+            <input type="radio" id="male" name="gender">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender">
+            <label for="female">Female</label><br><br>
+
+            <label for="Vehicle">Vehicle</label>
+            <input type="checkbox" name="car" id="vehhicle1">
+            <label for="car">Car</label>
+            <input type="checkbox" name="bike" id="vehhicle2">
+            <label for="bike">Bike</label><br><br>
+
+        <label for="language">Select your programming language:</label>
+        <select name="select" id="select">
+            <option value="c">C</option>
+            <option value="cpp">C++</option>
+            <option value="java">Java</option>
+            <option value="HTML">HTML</option>
+            <option value="css">CSS</option>
+            <option value="javascript">JavaScript</option>
+        </select>
+<br><br>
+        <label for="url">URL:</label>
+        <input type="url" id="url" name="url" required><br><br>
+
+        <label for="file">File Upload:</label>
+        <input type="file" id="file" name="file" required><br><br>
+        <label for="attempt">Attempt:</label>
+        <input type="number" id="attempt" name="attempt" required min="1" max="10">
+          <br><br>
+
+          <label for="appointment">Appointment:</label>
+          <input type="time" id="appointment" name="appointment" required>
+          <br><br>
+          <input type="submit">
+          <input type="reset">
+        
+            
+            
+
+        </fieldset>
+
+    </form>
+
+</body>
+</html>
